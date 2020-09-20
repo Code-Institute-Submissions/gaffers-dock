@@ -1,4 +1,5 @@
 # GAFFERS' DOCK
+    
     This is a website for a rigging company specialised in making and maintaining riggings for gaff rigged boats.
     
         The idea derives from the experiance of having renovated my own gaff rigged boat.
@@ -39,13 +40,16 @@
 
 ## Technologies Used
 
+* Bootstrap 4 - For Grid Layout
+
 ## Testing
 
 
 ## Deployment
 
 ## Credits
-    * The README structure was taken from CI's "readme-template"
+ 
+   * The README structure was taken from CI's "readme-template"
 
 
 ### Contents
