@@ -1,39 +1,53 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# GAFFERS' DOCK
+    This is a website for a rigging company specialised in making and maintaining riggings for gaff rigged boats.
+    
+        The idea derives from the experiance of having renovated my own gaff rigged boat.
+    When working with the rig, I found it difficult to find adiquate information and the proffesional help that I needed.
+    A company like Gaffers' Dock (preferably in a nearby locaton) would have been greatly apreciated.
 
-Welcome USER_NAME,
+        Gaffers' Dock is an old family owned company with long experience of working with traditional crafts.
+    Despite the fact that there aren’t many companies left, these days, with the skills and the knowhow of making
+    and maintaining gaff rigs, the owner's feel the need to reach out to their potential customers
+    with the means of a website. The aim being to increase order intake, share their knowledge and experiance
+    and to make it easier for the boat owners to find their way to a professional traditional boat rigger.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+        The owners of gaff rigged boats are known to have a soft spot for the romantic sides boat life.
+    They quite often have a good eye for aesthetics, are generaly keen on traditional methods and materials,and...
+    they love the smell of good old Stockholm tar.
 
-## Gitpod Reminders
+        The website will adhere to those attributes in its fonts, images and colours etc. (perhaps without the smell of tar)
+    in order to capture an ambiance of a marine environment set in the early 20th century.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
+        The existing hemp servicing on the wires in "Thalassa's" rig is now old and withered. 
+    The owner plans to do the job herself, but, she wants to use modern material instead of hemp this time.
+    She uses the web to try to find out what to use. Browsing, she comes across the Gaffers' Dock landing site,
+    where she can get a free phone consultation, and, she clicks the "Call Us" button.
 
-`python3 -m http.server`
+        The owner of "Vanessa" is skimming the web to find someone who can construct a complete new rig.
+    He finds the website of Gaffers' Dock and gets intrigued by the vintage styled images.
+    He, therefor, stays on the site to find out more about the company.
+    Persuaded by the ongoing projects images, together with the company's history and skills,
+    he clicks the "Queries" button to fills in the contact form.
 
-A blue button should appear to click: *Make Public*,
+## Features
 
-Another blue button should appear to click: *Open Browser*.
+### Existing Features
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Features Left to Implement
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Testing
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Deployment
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Credits
+    * The README structure was taken from CI's "readme-template"
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Contents
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Acknowledgments
