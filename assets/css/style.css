@@ -1,24 +1,46 @@
 
+/*-------------------Navigation-------------------*/
 
 .navbar-bg-color {
-    background-color: rgba(134, 134, 112, 0.5);
+    background-color: rgb(194, 136, 83);
 }
+
+/*---------------Landing Hero Image---------------*/
 
 .landing-image {
     background: url('../images/landing.jpeg') no-repeat fixed;
-    height: 400vh;
+    height: 300vh;
     background-size: cover;
 }
 
+
+
+/*-------------------Jumbotron--------------------*/
+
 .jumbotron {
-    background-color: rgba(134, 134, 112, 0.5);
-    margin: 2em 20em 5em 20em;
-    justify-content: center
+    background-color: transparent;
+
 }
 
 .jumbotron h1 {
-    color:  rgb(240, 227, 209);
+    color:  rgb(248, 240, 197);
     text-align: center;
     margin-top: 5em;
 }
 
+/*----------Free Phone Consultaton Button----------*/
+
+.call-button {
+    margin-top: 5em;
+    background-color: rgb(88, 160, 60);
+    color: rgb(248, 240, 197);
+    border-radius: 20px;
+}
+
+.call-button:hover,
+.call-button:active {
+    color: rgb(248, 240, 197);
+    background-color: rgb(64, 112, 45);
+    border-color: rgb(27, 46, 19);
+
+}
