@@ -50,7 +50,7 @@
 ## Credits
  
    * The README structure was taken from CI's "readme-template"
-
+   * W3School
 
 ### Contents
 
