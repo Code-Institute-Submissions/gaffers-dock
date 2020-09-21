@@ -14,9 +14,9 @@
     <!------------------Landing Site------------------>
 
         <!--Navbar imported from Bootstrap 4-->
-        <nav class="navbar navbar-expand-sm navbar-light navbar-bg-color fixed-top ">
-            <a class="navbar-brand active" href="#">
-                <img src="assets/images/nav-logo.png" height="44" width="200" loading="lazy" alt="Logo Gaffers' Dock">
+        <nav class="navbar navbar-expand-md navbar-light navbar-bg-color fixed-top ">
+            <a class="navbar-brand active" href="#landing-page">
+                <img src="assets/images/nav-logo.png" id="navbar-logo" height="44" width="200" loading="lazy" alt="Logo Gaffers' Dock">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,22 +38,29 @@
                 </ul>
             </div>
         </nav>
-        <section>
+        <div id="landing-page"></div>
 
+        <section>
             <!--Jumbotron imported from Bootstrap 4-->
             <div class="container-fluid landing-image">
                 <div class="image-overlay"></div>
                 <div class="row">
-                    <div class="col-12 col-md-10 col align-self-center">
+                    <div class="col col-md-10 col align-self-center">
                         <div class="jumbotron">
                             <img src="assets/images/jumbotron-logo.png" alt="Logo GAFFER'S DOCK<br>Gaff Yacht Riggers Since 1921" height="100%" width="100%">
                         </div>                    
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col col-md-4 ml-auto">
+                    <div class="col col-sm-6 col-md-4 ml-auto">
+                        <p id="button-header">For Free Consultation</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-6 col-md-4 ml-auto">
                         <!--Button imported from Bootstrap 4-->
-                        <a class="btn call-button btn-lg" href="#" role="button">Free Phone<br>Consultation</a>
+                        <a class="btn call-button btn-lg" href="#" role="button">
+                        <i class="fas fa-phone-alt" id="phone"></i>Call Us!</a>
                     </div>
                 </div>   
             </div>

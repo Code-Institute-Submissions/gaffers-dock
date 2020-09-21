@@ -1,9 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Tenor+Sans&display=swap');
 
 /*-------------------Navigation-------------------*/
 
 .navbar-bg-color {
     background-color: rgb(211, 181, 116);
 }
+
+#navbar-logo {
+    border-radius: 10px;
+}
+
+#navbar-logo:hover,
+#navbar-logo:active {
+    background-color: rgb(158, 136, 91);
+}
+
+.nav-item {
+    font-family: Tenor Sans, sans-serif;
+    font-size: 20px;
+    margin-right: 1.5em;
+}
+
+
 
 /*---------------Landing Hero Image---------------*/
 
@@ -36,11 +54,18 @@
     margin-top: 5em;
 }
  
-/*----------Free Phone Consultaton Button----------*/
+/*----------------Free Consultaton----------------*/
+
+#button-header {
+    font-size: 20px;
+    color: rgb(211, 181, 116);
+    margin-top: 12em;
+    margin-left: 0.5em;
+}
 
 .call-button {
     text-align: center;
-    margin-top: 10em;
+    margin-left: 1.5em;
     background-color: rgb(88, 160, 60);
     color: rgb(248, 240, 197);
     border-radius: 20px;
@@ -52,4 +77,8 @@
     background-color: rgb(64, 112, 45);
     border-color: rgb(27, 46, 19);
 
+}
+
+#phone {
+    margin-right: 1em;
 }

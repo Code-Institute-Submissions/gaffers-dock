@@ -20,6 +20,7 @@
     in order to capture an ambiance of a marine environment set in the early 20th century.
 
 ## UX
+
         The existing hemp servicing on the wires in "Thalassa's" rig is now old and withered. 
     The owner plans to do the job herself, but, she wants to use modern material instead of hemp this time.
     She uses the web to try to find out what to use. Browsing, she comes across the Gaffers' Dock landing site,
@@ -37,12 +38,14 @@
 
 ### Features Left to Implement
 
+    *   Change colour to Navigation Links.
 
 ## Technologies Used
 
-* Bootstrap 4 - For Grid Layout
-* freelogoservices.com for Logo
-* fontawesome.com
+    *   Bootstrap 4 - For Grid Layout
+    *   Freelogoservices
+    *   Fontawesome
+    *   Google Fonts
 
 ## Testing
 
@@ -51,8 +54,12 @@
 
 ## Credits
  
-   * The README structure was taken from CI's "readme-template"
-   * W3School
+    *   The README structure was taken from CI's "readme-template".
+    *   W3School
+    *
+    *   To my fellow student and parnter in life for her technical aid.
+        But, most of all for the invaluble moral- and loving support she has given me
+        through out the course as well as in our past.
 
 ### Contents
 
