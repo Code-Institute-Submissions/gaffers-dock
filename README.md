@@ -42,6 +42,7 @@
 
 * Bootstrap 4 - For Grid Layout
 * freelogoservices.com for Logo
+* fontawesome.com
 
 ## Testing
 
