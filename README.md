@@ -41,6 +41,7 @@
 ## Technologies Used
 
 * Bootstrap 4 - For Grid Layout
+* freelogoservices.com for Logo
 
 ## Testing
 

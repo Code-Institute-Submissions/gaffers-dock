@@ -2,7 +2,7 @@
 /*-------------------Navigation-------------------*/
 
 .navbar-bg-color {
-    background-color: rgb(194, 136, 83);
+    background-color: rgb(177, 125, 77);
 }
 
 /*---------------Landing Hero Image---------------*/
@@ -11,7 +11,6 @@
     background: url('../images/landing.jpeg') no-repeat fixed;
     height: 300vh;
     background-size: cover;
-
 }
 
 /*------Image-Overlay imported from w3school------*/
@@ -34,19 +33,14 @@
 
 .jumbotron {
     background-color: transparent;
-
-}
-
-.jumbotron h1 {
-    color:  rgb(248, 240, 197);
-    text-align: center;
-    margin-top: 6em;
+    margin-top: 5em;
 }
 
 /*----------Free Phone Consultaton Button----------*/
 
 .call-button {
-    margin-top: 5em;
+    text-align: center;
+    margin-top: 10em;
     background-color: rgb(88, 160, 60);
     color: rgb(248, 240, 197);
     border-radius: 20px;
