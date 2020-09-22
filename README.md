@@ -37,10 +37,11 @@
 ### Existing Features
 
     Reconsidered the position of the "Call Us!" button. Pushed it aside slightly so it clear the view of the deadeye.
-    
+    I decided to place the "Our Services" header inside the box in order to better keep the theme and flow of the website.
 ### Features Left to Implement
 
     *   Change colour to Navigation Links.
+    *   Hover function to Navbar Toggler
 
 ## Technologies Used
 
