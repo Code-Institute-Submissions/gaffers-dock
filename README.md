@@ -36,6 +36,8 @@
 
 ### Existing Features
 
+    Reconsidered the position of the "Call Us!" button. Pushed it aside slightly so it clear the view of the deadeye.
+    
 ### Features Left to Implement
 
     *   Change colour to Navigation Links.
