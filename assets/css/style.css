@@ -56,10 +56,9 @@
  
 /*----------------Free Consultaton----------------*/
 
-#button-header {
+.consultation-btn p {
     font-size: 20px;
     color: rgb(211, 181, 116);
-    margin-top: 12em;
     margin-left: 0.5em;
 }
 
