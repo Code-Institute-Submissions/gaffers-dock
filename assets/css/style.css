@@ -129,13 +129,11 @@
 
 .current-projects {
     text-align: center;
+    background-color: #f8f0c5;
+
 }
 
 .img-fluid {
     max-width: 100%;
     max-height: auto;
-}
-
-.eyesplice-image {
-    size: 75%;
 }
