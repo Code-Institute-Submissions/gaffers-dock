@@ -21,11 +21,9 @@
     margin-right: 1.5em;
 }
 
+/*------------------Landing Page------------------*/
 
-
-/*---------------Landing Hero Image---------------*/
-
-.landing-image {
+.landing {
     background: url('../images/landing.jpeg') no-repeat fixed;
     height: 350vh;
     background-size: cover;
@@ -45,16 +43,12 @@
     z-index: 0;
 }
 
-
-
-/*-------------------Jumbotron--------------------*/
-
 .jumbotron {
     background-color: transparent;
     margin-top: 5em;
 }
  
-/*----------------Free Consultaton----------------*/
+/*----------Free Consultaton Call Button----------*/
 
 .consultation-btn p {
     font-size: 20px;
@@ -88,6 +82,8 @@
     margin-right: 1em;
 }
 
+/*------------------ Our Services-----------------*/
+
 .our-services {
     font-family: Cormorant, sans-serif;
     background-color: rgba(211, 181, 116, 0.4);
@@ -120,9 +116,26 @@
     font-size: 18px;
 }
 
-.service-list li i{
+.service-list li i {
     font-size: 200%;
     padding-right: 1em;
+
 }
 
+/*----------------Ongoing Projects----------------*/
+.projects-canvas {
+    height: 85vh;
+}
 
+.current-projects {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.eyesplice-image {
+    size: 75%;
+}
