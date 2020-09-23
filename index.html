@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     </head>
     <body>
-
-    <!------------------Landing Site------------------>
+        <!---------------------Navbar--------------------->
+        <hr>
 
         <!--Navbar imported from Bootstrap 4-->
         <nav class="navbar navbar-expand-md navbar-light navbar-bg-color fixed-top">
@@ -26,11 +26,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#home-page">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services-page">Services</a>
+                    <li class="nav-item">                       
+                        <a class="nav-link" href="#projects-page">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects-page">Projects</a>
+                        <a class="nav-link" href="#services-page">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-page">Contact</a>
@@ -38,11 +38,14 @@
                 </ul>
             </div>
         </nav>
-        <div id="landing-page"></div>
+         <!-------------------/.Navbar--------------------->
+         <hr>
 
-        <section>
+         <!------------------Landing Page------------------>
+        <div id="landing-page"></div>
+        <section class=" landing">
             <!--Jumbotron imported from Bootstrap 4-->
-            <div class="container-fluid landing-image">
+            <div class="container">
                 <div class="image-overlay"></div>
                 <div class="row">
                     <div class="col col-md-10 col align-self-center">
@@ -63,12 +66,16 @@
                         <i class="fas fa-phone-alt" id="phone"></i>Call Us!</a>
                     </div>
                 </div>
+                <!------------------/.Landing Page------------------>
+                <hr>
+
+                <!--------------------Home Page--------------------->
                 <div id="home-page"></div>
                 <div class="row justify-content-center justify-content-lg-end">
                     <div class="col col-lg-6 our-services">
                         <h1>Our Services</h1>
                         <ul class="service-list">
-                            <li ><i class="fas fa-drafting-compass list-icon"></i>We give advice and support with anything concerning Your boat's rig.
+                            <li ><i class="fas fa-drafting-compass"></i>We give advice and support with anything concerning Your boat's rig.
                                 Wether it's just a small adjustment or alteration, or an entire new design altogether.
                             </li>
 
@@ -88,25 +95,49 @@
                 </div>
             </div>
         </section>
+        <!------------------/.Home Page--------------------->
+        <hr>
 
-    <!-------------------Our Services------------------->
-    <!-----------------Ongoing Project!----------------->
-       
-        <section>
-            Ongoing Projects- here
+        <!------------------Projects Page------------------->
+        <div id="projects-page"></div>
+        <section class="projects">
+            <div class="container">
+                <div class="row mr-auto">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-4">
+                                <h2>"Flicka"</h2>
+                                <p>Place text here!</p>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <h2>"Lazy Flax"</h2>
+                                <p>Place text here!</p>                            
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <h2>"Pixie"</h2>
+                                <p>Place text here!</p>                      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </section>
+        <!-----------------/.Projects Page------------------->
+        <hr>
 
-    <!----------------------About!---------------------->
-       
+        <!--------------------AboutPage---------------------->
         <section>
             About
         </section>
+        <!------------------/.AboutPage---------------------->
+        <hr>
 
-    <!----------------------Contact---------------------->
-        
+        <!----------------------Contact---------------------->
         <section>
             Contact Form- here
         </section>
+        <!--------------------/.Contact---------------------->
+        <hr>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
