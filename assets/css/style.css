@@ -27,12 +27,14 @@
     background: url('../images/landing.jpeg') no-repeat fixed;
     height: 350vh;
     background-size: cover;
+    position: relative;
+ 
 }
 
-/*------Image-Overlay imported from w3school------*/
+/*------Image-Overlay inspired by w3school------*/
 
 .image-overlay {
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
@@ -123,9 +125,6 @@
 }
 
 /*----------------Ongoing Projects----------------*/
-.projects-canvas {
-    height: 85vh;
-}
 
 .current-projects {
     text-align: center;
