@@ -28,7 +28,7 @@ body {
 
 /*------------------Landing Page------------------*/
 
-.landing {
+#landing {
     background: url('../images/landing.jpeg') no-repeat fixed;
     height: 100%;
     background-size: cover;
@@ -91,7 +91,7 @@ body {
 /*------------------ Our Services-----------------*/
 
 .our-services {
-    /* background-color: rgba(211, 181, 116, 0.4); */
+    /* background-color: rgba(211, 181, 116, 0.4); -----------TO BE DECIDED-----------!*/
     border-radius: 25px;
     color: #f8f0c5;
     margin-top: 150px;
@@ -117,7 +117,7 @@ body {
     padding-right: 2em;
     padding-bottom: 2em;
     line-height: 130%;
-    font-size: 18px;
+    font-size: 20px;
     min-width: 280px;
 }
 
@@ -135,7 +135,7 @@ body {
     padding-top: 5em;
 }
 
-.current-projects h1 {
+.current-projects h1, .about h1 {
     color: #4b2b24;
     text-transform: uppercase;
     padding-top: 1em;
@@ -162,7 +162,7 @@ body {
 
 /*--------------------About Us--------------------*/
 
-.about-background{
+#about-background{
     background: url('../images/comb.jpg') no-repeat;
     height: 100%;
     width: 100%;
@@ -170,6 +170,26 @@ body {
     position: absolute;
 }
 
+#text-wrapper {
+    border-radius: 25px;
+    background-color: rgba(248, 240, 197, 0.7);
+    max-width: 800px;
+    min-width: 280px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12em;
+}
+
 .about {
-    position: relative
+    position: relative;
+    text-align: center;
+}
+
+.about p {
+    color: #4b2b24;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    padding: 0 2em 5em 2em;
 }
