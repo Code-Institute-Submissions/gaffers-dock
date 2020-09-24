@@ -3,7 +3,7 @@
 /*-------------------Navigation-------------------*/
 
 .navbar-bg-color {
-    background-color: rgb(211, 181, 116);
+    background-color: #d3b574;
 }
 
 #navbar-logo {
@@ -12,7 +12,7 @@
 
 #navbar-logo:hover,
 #navbar-logo:active {
-    background-color: rgb(158, 136, 91);
+    background-color: #9e885b;
 }
 
 .nav-item {
@@ -25,10 +25,9 @@
 
 .landing {
     background: url('../images/landing.jpeg') no-repeat fixed;
-    height: 350vh;
+    height: 100%;
     background-size: cover;
     position: relative;
- 
 }
 
 /*------Image-Overlay inspired by w3school------*/
@@ -55,28 +54,28 @@
 .consultation-btn p {
     font-size: 20px;
     font-family: Tenor Sans, sans-serif; 
-    color: rgb(211, 181, 116);
+    color: #f8f0c5;
     margin-left: 0.5em;
 }
 
 .call-us {
-    margin-bottom: 35em;
+    margin-bottom: 50em;
 }
 
 .call-button {
     text-align: center;
     font-family: Tenor Sans, sans-serif;
     margin-left: 2em;
-    background-color: rgb(88, 160, 60);
+    background-color: #58a03c;
     color: rgb(248, 240, 197);
     border-radius: 20px;
 }
 
 .call-button:hover,
 .call-button:active {
-    color: rgb(248, 240, 197);
-    background-color: rgb(64, 112, 45);
-    border-color: rgb(27, 46, 19);
+    color: #f8f0c5;
+    background-color: #40702d;
+    border-color: #1b2e13;
 
 }
 
@@ -88,13 +87,13 @@
 
 .our-services {
     font-family: Cormorant, sans-serif;
-    background-color: rgba(211, 181, 116, 0.4);
+    /* background-color: rgba(211, 181, 116, 0.4); */
     border-radius: 25px;
-    color: rgb(248, 240, 197);
-    margin-top: 7em;
+    color: #f8f0c5;
+    margin-top: 150px;
     margin-right: 35px;
     margin-left: 35px;
-    padding-bottom: 40px;
+    margin-bottom: 100px;
 
 }
 
@@ -102,7 +101,6 @@
     font-weight: 600;
     font-size: 50px;
     text-transform: uppercase;
-    padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -114,8 +112,9 @@
 .service-list li {
     padding-right: 2em;
     padding-bottom: 2em;
-    line-heght: 130%;
+    line-height: 130%;
     font-size: 18px;
+    min-width: 280px;
 }
 
 .service-list li i {
@@ -129,10 +128,32 @@
 .current-projects {
     text-align: center;
     background-color: #f8f0c5;
+    padding-top: 5em;
+}
 
+.current-projects h1 {
+    font-family: Cormorant, sans-serif;
+    color: #4b2b24;
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
 }
 
 .img-fluid {
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
+    border-radius: 10px
+}
+
+.projects h2 {
+    font-family: Cormorant, sans-serif;
+    color: #4b2b24;
+    margin-top: 0.5em;   
+}
+
+.projects p {
+    font-family: Cormorant, sans-serif;
+    color: #4b2b24;text-align: left;
+    padding-top: 0.5em;
+    margin-bottom: 5em;
 }
