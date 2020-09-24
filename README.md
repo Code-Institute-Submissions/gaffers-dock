@@ -38,12 +38,11 @@
 
     *   Reconsidered the position of the "Call Us!" button. Pushed it aside slightly so it clear the view of the deadeye.
     *   I decided to place the "Our Services" header inside the box in order to better keep the theme and flow of the website.
-    *   Had an issue with the overlay not folloing the height of the Landing image. Find the solution in the code of "Whiskey Drop".  
+    *   Had an issue with the overlay, not folloing the height of the Landing image. Find the solution in the code of "Whiskey Drop".  
 
 ### Features Left to Implement
 
     *   Change colour to Navigation Links.
-    *   Hover function to Navbar Toggler
 
 ## Technologies Used
 
