@@ -22,13 +22,13 @@ body {
 
 .nav-item {
     font-family: Tenor Sans, sans-serif;
-    font-size: 20px;
+    font-size: 1.25em;
     margin-right: 1.5em;
 }
 
 /*------------------Landing Page------------------*/
 
-#landing {
+.landing {
     background: url('../images/landing.jpeg') no-repeat fixed;
     height: 100%;
     background-size: cover;
@@ -84,7 +84,7 @@ body {
 
 }
 
-#phone {
+.phone {
     margin-right: 1em;
 }
 
@@ -117,7 +117,7 @@ body {
     padding-right: 2em;
     padding-bottom: 2em;
     line-height: 130%;
-    font-size: 20px;
+    font-size: 1.3em;
     min-width: 280px;
 }
 
@@ -155,14 +155,16 @@ body {
 }
 
 .projects p {
-    color: #4b2b24;text-align: left;
+    color: #4b2b24;
+    text-align: left;
     padding-top: 0.5em;
     margin-bottom: 5em;
+    font-size: 1.3em;
 }
 
 /*--------------------About Us--------------------*/
 
-#about-background{
+.about-background{
     background: url('../images/comb.jpg') no-repeat;
     height: 100%;
     width: 100%;
@@ -170,12 +172,12 @@ body {
     position: absolute;
 }
 
-#text-wrapper {
+.text-wrapper {
     border-radius: 25px;
     background-color: rgba(248, 240, 197, 0.7);
     max-width: 800px;
     min-width: 280px;
-    height: 500px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 12em;
@@ -189,7 +191,7 @@ body {
 .about p {
     color: #4b2b24;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.3em;
     text-align: left;
     padding: 0 2em 5em 2em;
 }
