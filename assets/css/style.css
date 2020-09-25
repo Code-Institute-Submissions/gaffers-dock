@@ -94,10 +94,10 @@ body {
     /* background-color: rgba(211, 181, 116, 0.4); -----------TO BE DECIDED-----------!*/
     border-radius: 25px;
     color: #f8f0c5;
-    margin-top: 150px;
-    margin-right: 35px;
-    margin-left: 35px;
-    margin-bottom: 100px;
+    margin-top: 9em;
+    margin-right: 1.5em;
+    margin-left: 1,5em;
+    margin-bottom: 6em;
 
 }
 
@@ -118,7 +118,7 @@ body {
     padding-bottom: 2em;
     line-height: 130%;
     font-size: 1.3em;
-    min-width: 280px;
+    min-width: 300px;
 }
 
 .service-list li i {
@@ -169,7 +169,6 @@ body {
     height: 100%;
     width: 100%;
     background-size: cover;
-    position: absolute;
 }
 
 .text-wrapper {
@@ -180,11 +179,11 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12em;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .about {
-    position: relative;
     text-align: center;
 }
 
