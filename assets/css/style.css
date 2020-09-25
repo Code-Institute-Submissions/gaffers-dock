@@ -202,7 +202,7 @@ body {
 .queries-background {
     background-color: #f8f0c5;
     height: 100%;
-    
+    width: 100%;
 }
 
 .queries-background h1 {
@@ -218,12 +218,17 @@ body {
 .form{
     list-style-type: none;
     text-align: center;
-    padding: 1em 0em 10em 0em;
-
+    padding: 1em 0em 30em 0em;
+    margin: 0px;
 }
 
 .form li {
-    padding-top: 1em;
+    padding: 1em;
+}
+
+label {
+    font-size: 1.5em;
+    color: #4b2b24;
 }
 
 input, textarea {
@@ -250,3 +255,5 @@ input, textarea {
 }
 
 /*-------------------Footer-------------------*/
+
+ 

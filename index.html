@@ -10,36 +10,36 @@
         <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     </head>
     <body>
-        <!---------------------Navbar--------------------->
-
-        <!--------Navbar imported from Bootstrap 4-------->
-        <nav class="navbar navbar-expand-md navbar-light navbar-bg-color fixed-top">
-            <a class="navbar-brand active" href="#landing-page">
-                <img src="assets/images/nav-logo.png" id="navbar-logo" height="44" width="200" loading="lazy" alt="Logo Gaffers' Dock">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services-page">Services<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">                       
-                        <a class="nav-link" href="#projects-page">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-page">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#queries-page">Queries</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-------------------/.Navbar--------------------->
-
-        <!------------------Landing Page------------------>
+            <!---------------------Navbar--------------------->
+        <header>
+            <!--------Navbar imported from Bootstrap 4-------->
+            <nav class="navbar navbar-expand-md navbar-light navbar-bg-color fixed-top">
+                <a class="navbar-brand active" href="#landing-page">
+                    <img src="assets/images/nav-logo.png" id="navbar-logo" height="44" width="200" loading="lazy" alt="Logo Gaffers' Dock">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services-page">Services<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">                       
+                            <a class="nav-link" href="#projects-page">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-page">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#queries-page">Queries</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            <!-------------------/.Navbar--------------------->
+             <!------------------Landing Page------------------>
         <section class="landing" id="landing-page">
             <div class="container">
                 <div class="image-overlay"></div>
@@ -62,18 +62,18 @@
                         <i class="fas fa-phone-alt phone"></i>Call Us!</a>
                     </div>
                 </div>
-                <!------------------/.Landing Page------------------>
+            <!------------------/.Landing Page------------------>
                     
-                <!-------------------Services Page------------------>
+            <!-------------------Services Page------------------>
                 <div class="row justify-content-center justify-content-lg-end" id="services-page">
                     <div class="col col-lg-6 our-services">
                         <h1>Our Services</h1>
                         <ul class="service-list">
-                            <li ><i class="fas fa-drafting-compass"></i>We give advice and support with anything concerning Your boat's rig.
+                            <li ><i class="fas fa-drafting-compass"></i>We offer advice and support on anything concerning your boat's rig.
                                 Wether it's just a small adjustment or alteration, or an entire new design altogether.
                             </li>
 
-                            <li><i class="fas fa-user-cog"></i>If You want to know, for instance, how to parcel and serve wire,
+                            <li><i class="fas fa-user-cog"></i>If ysou want to know, for instance, how to parcel and serve wire,
                                 splice a Liverpool eyesplice or make baggywrinkles, we give tutored lessons regularly.
                             </li>
 
@@ -89,9 +89,9 @@
                 </div>
             </div>
         </section>
-        <!----------------/.Services Page------------------->
+            <!----------------/.Services Page------------------->
 
-        <!------------------Projects Page------------------->
+            <!------------------Projects Page------------------->
         <section class="current-projects" id="projects-page">
             <div class="container">
                 <div class="row">
@@ -142,9 +142,9 @@
                 </div>
             </div>    
         </section>
-        <!-----------------/.Projects Page------------------->
+            <!-----------------/.Projects Page------------------->
 
-        <!--------------------About Page---------------------->
+            <!--------------------About Page---------------------->
         <section  id="about-page" class="about-background">
             <div class="container">
                 <div class="row justify-content-center about">
@@ -164,40 +164,49 @@
                 </div>
             </div>
         </section>
-        <!------------------/.About Page---------------------->
+            <!------------------/.About Page---------------------->
 
-        <!----------------------Queries---------------------->
-        <section id="queries-page">
-            <div class="queries-background">
-                <h1>Queries<br>⎯ ✵ ⎯</h1>
-                <form action="#" method="post">
-                    <ul class="form">
-                        <li>
-                            <input type="text" name="fname" placeholder="First Name:" required><br>
-                        </li>
-                        <li>
-                            <input type="text" name="lname" placeholder="Last Name:" required>
-                        </li>
-                        <li>
-                            <input type="email" name="email" placeholder="Email Address:" required><br>
-                        </li>
-                        <li>
-                            <textarea name="message" id="" cols="20" rows="8" placeholder="Queries:"></textarea><br>
-                        </li>
-                        <div>
-                            <input class="reset" aria-label="reset" type="reset" >
-                            <input class="send" aria-label="reset" type="submit" value="Send">
-                        </div>
-                    </ul>
-                </form>
+            <!-------------------Queries Page--------------------->
+        <section  id="queries-page">
+            <div class="container-fluid p-0">
+                <div class="row justify-content-center mx-0 queries-background">
+                    <div class="col-12 px-0">
+                        <h1>Queries<br>⎯ ✵ ⎯</h1>
+                        <form action="#" method="post">
+                            <ul class="form">
+                                <li>
+                                    <label for="fname">First Name:</label><br>
+                                    <input type="text" id="fname" name="fname" placeholder="First Name:" required><br>
+                                </li>
+                                <li>
+                                    <label for="lname">Last Name:</label><br>
+                                    <input type="text" id="lname" name="lname" placeholder="Last Name:" required>
+                                </li>
+                                <li>
+                                    <label for="email">Email Address:</label><br>
+                                    <input type="email" name="email" placeholder="Email Address:" required><br>
+                                </li>
+                                <li>
+                                    <label for="message">Queries:</label><br>
+                                    <textarea name="message" id="" cols="20" rows="8" placeholder="Queries:"></textarea><br>
+                                </li>
+                                <div>
+                                    <input class="reset" aria-label="reset" type="reset" >
+                                    <input class="send" aria-label="reset" type="submit" value="Send">
+                                </div>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
-
-        <!--------------------/.Queries---------------------->
-    <footer>
-        Address, Phone no, email, links to google maps and social media- here 
-    </footer>
-
+            <!------------------/.Queries Page------------------->
+        
+            <!----------------------Footer----------------------->
+        <footer>
+             
+        </footer>
+            <!---------------------/.Footer---------------------->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
