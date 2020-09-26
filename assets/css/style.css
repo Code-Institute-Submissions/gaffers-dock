@@ -60,7 +60,7 @@ body {
     font-family: Tenor Sans, sans-serif;
     font-size: 20px; 
     color: #f8f0c5;
-    margin-left: 0.5em;
+    margin-left: 1.5em;
 }
 
 .call-us {
@@ -152,13 +152,12 @@ body {
 
 .projects h2 {
     color: #4b2b24;
-    margin-top: 0.5em;   
+    margin-top: 0.5em;
 }
 
 .projects p {
     color: #4b2b24;
     text-align: left;
-    padding-top: 0.5em;
     margin-bottom: 5em;
     font-size: 1.3em;
 }
@@ -261,21 +260,22 @@ input, textarea {
     color: #f8f0c5;
     padding-left: 1em;
     padding-bottom: 2em;
+    font-family: Tenor Sans, sans-serif;
 } 
 
 .contact h1 {
-    font-size: 3em;
-    padding-top: 1em;
-    padding-bottom: 0.5em;
+    font-size: 1.8em;
+    padding-top: 1.7em;
+    padding-bottom: 1em;
 }
 
 .contact p {
-    font-size: 1.2em;
+    font-size: 1em;
     padding-top: 3em;
 }
 
 .contact span {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .contact-icon {
@@ -292,6 +292,5 @@ input, textarea {
 .social-icon {
     font-size:  2em;
     color: #f8f0c5;
-    padding: 2em 0 2em 0;
-    padding: 2em 0 0 1.5em;
+    margin: 2em 0 0 1.5em;
 }
