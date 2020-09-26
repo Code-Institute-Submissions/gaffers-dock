@@ -256,4 +256,42 @@ input, textarea {
 
 /*-------------------Footer-------------------*/
 
- 
+.contact, .social{
+    background-color: #4b2b24;
+    color: #f8f0c5;
+    padding-left: 1em;
+    padding-bottom: 2em;
+} 
+
+.contact h1 {
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.contact p {
+    font-size: 1.2em;
+    padding-top: 3em;
+}
+
+.contact span {
+    font-size: 1.2em;
+}
+
+.contact-icon {
+    color: #f8f0c5;
+    font-size: 1.2em;
+    padding-right: 0.5em;
+}
+
+.contact a {
+    padding-left: 0.5em;
+}
+
+
+.social-icon {
+    font-size:  2em;
+    color: #f8f0c5;
+    padding: 2em 0 2em 0;
+    padding: 2em 0 0 1.5em;
+}
