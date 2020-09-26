@@ -23,7 +23,7 @@ body {
 .nav-item {
     font-family: Tenor Sans, sans-serif;
     font-size: 1.25em;
-    margin-right: 1.5em;
+    padding-right: 1.5em;
 }
 
 /*------------------Landing Page------------------*/
@@ -232,7 +232,7 @@ label {
 }
 
 input, textarea {
-    padding: 1em 8.2em 0em 1em;
+    padding: 1em 7.2em 0em 1em;
     border: 1px solid #4b2b24;
     font-size: 1em;
     font-family: Tenor Sans, sans-serif;
