@@ -7,7 +7,7 @@
 * Browsers: last 4 version
 */
 
-/*-----------------Media Queries------------------*/
+/* ----------------- Media Queries ------------------ */
 
 @media screen and (max-width: 350px) {
     
@@ -15,7 +15,7 @@ body {
     width: 112%;
 }
 
-/*---------------------Fonts----------------------*/
+/* --------------------- Fonts ---------------------- */
 
 }
 
@@ -23,7 +23,7 @@ body {
     font-family: 'Cormorant', sans-serif;
 }
 
-/*-------------------Navigation-------------------*/
+/* ------------------- Navigation ------------------- */
 
 
 .navbar-bg-color {
@@ -46,7 +46,7 @@ body {
     padding-right: 1.5em;
 }
 
-/*------------------Landing Page------------------*/
+/* ------------------ Landing Page ------------------ */
 
 .landing {
     background: url('../images/landing.jpeg') no-repeat fixed;
@@ -55,7 +55,7 @@ body {
     position: relative;
 }
 
-/*------Image-Overlay inspired by w3school------*/
+/* ------ Image-Overlay inspired by w3school ------ */
 
 .image-overlay {
     position: absolute;
@@ -79,7 +79,7 @@ body {
     width: 100%;
 }
  
-/*----------Free Consultaton Call Button----------*/
+/* --------- Free Consultaton Call Button --------- */
 
 .consultation-btn p {
     font-family: 'Tenor Sans', sans-serif;
@@ -113,10 +113,9 @@ body {
     margin-right: 1em;
 }
 
-/*------------------ Our Services-----------------*/
+/* ------------------ Our Services ----------------- */
 
 .our-services {
-    /* background-color: rgba(211, 181, 116, 0.4); -----------TO BE DECIDED-----------!*/
     border-radius: 25px;
     color: #f8f0c5;
     margin-top: 9em;
@@ -152,7 +151,7 @@ body {
 
 }
 
-/*----------------Ongoing Projects----------------*/
+/* ---------------- Ongoing Project ---------------- */
 
 .current-projects {
     text-align: center;
@@ -187,7 +186,7 @@ body {
     font-size: 1.3em;
 }
 
-/*--------------------About Us--------------------*/
+/* -------------------- About Us -------------------- */
 
 .about-background{
     background: url('../images/comb.jpg') no-repeat;
@@ -221,7 +220,7 @@ body {
     padding: 0 2em 5em 2em;
 }
 
-/*--------------------Queries--------------------*/
+/* -------------------- Queries -------------------- */
 
 .queries-background {
     background-color: #f8f0c5;
@@ -278,7 +277,7 @@ input, textarea {
     background-color: #40702d
 }
 
-/*-------------------Footer-------------------*/
+/* ------------------- Footer ------------------- */
 
 .contact, .social{
     background-color: #4b2b24;
